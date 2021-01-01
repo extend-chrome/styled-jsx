@@ -19,11 +19,15 @@ Use `styled-jsx` with Rollup. A temporary fork of the [excellent Vercel library]
 
 - https://github.com/vercel/styled-jsx/issues/658
 
+### This only works if you install it under an alias:
+
 ```
 npm i styled-jsx@npm:styled-jsx-for-rollup
 
 yarn add styled-jsx@npm:styled-jsx-for-rollup
 ```
+
+[About installing aliases.](https://stackoverflow.com/a/56134858/4842857)
 
 ---
 
@@ -32,6 +36,7 @@ Full, scoped and component-friendly CSS support for JSX (rendered on the server 
 Code and docs are for v3 which we highly recommend you to try. Looking for styled-jsx v2? Switch to the [v2 branch](https://github.com/zeit/styled-jsx/tree/v2).
 
 - [styled-jsx-for-rollup](#styled-jsx-for-rollup)
+  - [This only works if you install it under an alias:](#this-only-works-if-you-install-it-under-an-alias)
   - [Getting started](#getting-started)
   - [Configuration options](#configuration-options)
     - [`optimizeForSpeed`](#optimizeforspeed)
