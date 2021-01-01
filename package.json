@@ -1,6 +1,6 @@
 {
   "name": "styled-jsx-for-rollup",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "license": "MIT",
   "repository": "github:extend-chrome/styled-jsx",
   "description": "Out of the box Rollup support for the excellent Vercel library",
